@@ -1,0 +1,20 @@
+.modal-main-div {
+  padding-top: 80px;
+}
+.modal-img-img {
+  width: 90%;
+  height: 350px;
+  object-fit: cover;
+}
+.modal-right-div {
+  width: 50%;
+}
+.modal-left-div {
+  width: 50%;
+  height: 100%;
+}
+.h-h7 {
+  margin-top: -15px;
+  font-size: smaller;
+  color: brown;
+}

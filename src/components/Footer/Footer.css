@@ -1,0 +1,34 @@
+.main-div-footer-footer {
+  height: 70vh;
+}
+.c-rw-div {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.jhv {
+  width: 40%;
+}
+.jbi-foot {
+  width: 80%;
+}
+@media screen and (max-width: 780px) {
+  .main-div-footer-footer {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  .jbi-foot {
+    width: 100%;
+  }
+  .c-rw-div {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}

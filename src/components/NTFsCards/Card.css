@@ -1,0 +1,114 @@
+/* 
+=========================
+Fonts
+=========================
+
+font-family: 'Outfit', sans-serif;
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+/* 
+=====================
+Classes
+=====================
+*/
+
+/* LAYOUT */
+.gen-main-div {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.card-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 2em auto;
+  background: linear-gradient(indigo, #6b0036, #000d6b);
+  border-radius: 15px;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+
+div.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-attribute {
+  width: 100%;
+
+  padding-bottom: 1.5em;
+}
+
+.hero-image-container {
+  width: 100%;
+}
+.hero-image {
+  width: 100%;
+  height: 150px;
+  transition: transform 0.5s ease;
+  object-fit: cover;
+}
+.hero-image:hover {
+  transform: scale(1.1);
+}
+.bid-div-place {
+  display: flex;
+  justify-content: space-between;
+}
+.pl-btn {
+  border: 1px solid blue;
+  background: linear-gradient(indigo, #6b0036);
+  color: white;
+  transition: transform 0.5s ease;
+}
+.pl-btn:hover {
+  background-color: indigo;
+  color: beige;
+  transform: scale(1.1);
+}
+.et-h {
+  font-size: small;
+  color: hsl(215, 51%, 70%);
+}
+.icon-dis {
+  color: rgb(0, 174, 255);
+}
+.h-div-font {
+  color: white;
+  padding-top: 10px;
+}
+.small-avatar-div {
+}
+.small-avatar {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin-left: 15px;
+  /* display: inline-block; */
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 2px;
+  border: solid 5px rgb(78, 57, 4);
+
+  object-fit: cover;
+}
+.p-card-p {
+  font: normal normal 300 1em/1.55em "Outfit", sans-serif;
+  color: hsl(215, 51%, 70%);
+}
+.span-span {
+  color: white;
+}
+@media (max-width: 768px) {
+  .gen-main-div {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 480px) {
+  .card-container {
+    width: 90%;
+  }
+}
